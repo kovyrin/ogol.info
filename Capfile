@@ -21,7 +21,7 @@ set :user, 'sanyok'
 namespace :deploy do
   desc 'Tasks to execute after code update'
   task :after_update_code, :roles => :app do
-    run "chown kovyrin:hosting #{release_path} -R"
+    run "chown sanyok:hosting #{release_path} -R"
   end
 
   desc 'No finalization needed'
