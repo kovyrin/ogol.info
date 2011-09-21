@@ -5,7 +5,7 @@ server 'linode.kovyrin.net', :app, :web, :db, :primary => true
 
 set :application, 'ogol.info'
 set :repository,  'git@github.com:kovyrin/ogol.info.git'
-set :deploy_to, '/home/hosting/kovyrin/ogol.info'
+set :deploy_to, '/home/hosting/sanyok/ogol.info'
 
 # Deploy params
 set :scm, 'git'
