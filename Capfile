@@ -1,7 +1,7 @@
 load 'deploy'
 
 # Capistrano configuration
-server 'linode.kovyrin.net', :app, :web, :db, :primary => true
+server 'hosting.kovyrin.net', :app, :web, :db, :primary => true
 
 set :application, 'ogol.info'
 set :repository,  'git@github.com:kovyrin/ogol.info.git'
